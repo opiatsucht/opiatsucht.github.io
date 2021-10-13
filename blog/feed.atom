@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>opiatsucht.de</title>
+    <link href="https://opiatsucht.de/blog" />
+    <link type="application/atom+xml" rel="self" href="https://opiatsucht.de/blog/feed.atom" />
+    <updated>2021-10-13T19:38:18+00:00</updated>
+    <id>https://opiatsucht.de/blog/feed.atom</id>
+    <author>
+        <name>Author Name</name>
+    </author>
+                <entry>
+    <id>https://opiatsucht.de/blog/my-first-blog-post</id>
+    <link type="text/html" rel="alternate" href="https://opiatsucht.de/blog/my-first-blog-post" />
+    <title>My First Blog Post</title>
+    <published>2021-10-13T00:00:00+00:00</published>
+    <updated>2021-10-13T00:00:00+00:00</updated>
+    <author>
+        <name>Author Name</name>
+    </author>
+    <summary type="html">This is the start of your first blog post....</summary>
+    <content type="html"><![CDATA[
+        <p>This is the start of your first blog post.</p>
+    ]]></content>
+</entry>
+    </feed>
