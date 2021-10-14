@@ -3,7 +3,7 @@
     <title>opiatsucht.de</title>
     <link href="https://opiatsucht.de/blog" />
     <link type="application/atom+xml" rel="self" href="https://opiatsucht.de/blog/feed.atom" />
-    <updated>2021-10-14T19:53:08+00:00</updated>
+    <updated>2021-10-14T19:56:32+00:00</updated>
     <id>https://opiatsucht.de/blog/feed.atom</id>
     <author>
         <name>Author Name</name>
@@ -22,20 +22,6 @@ Edited with iA Writer!...</summary>
     <content type="html"><![CDATA[
         <p>This is the start of your first blog post.
 Edited with iA Writer!</p>
-    ]]></content>
-</entry>
-            <entry>
-    <id>https://opiatsucht.de/posts/ohne-titel</id>
-    <link type="text/html" rel="alternate" href="https://opiatsucht.de/posts/ohne-titel" />
-    <title>Tobis erster Post</title>
-    <published>2021-10-14T00:00:00+00:00</published>
-    <updated>2021-10-14T00:00:00+00:00</updated>
-    <author>
-        <name></name>
-    </author>
-    <summary type="html">Hier ist also der erste Post, den ich selber in iA Writer verfasst hab. Danke, Igor, bussi!...</summary>
-    <content type="html"><![CDATA[
-        <p>Hier ist also der erste Post, den ich selber in iA Writer verfasst hab. Danke, Igor, bussi!</p>
     ]]></content>
 </entry>
     </feed>
