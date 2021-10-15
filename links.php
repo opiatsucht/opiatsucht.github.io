@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Blog">
+        <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
 
-        <meta property="og:title" content="opiatsucht.de"/>
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://opiatsucht.de/links"/>
-        <meta property="og:description" content="Blog" />
+        <meta property="og:title" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
+        <meta property="og:type" content="{{ $page->type ?? 'website' }}" />
+        <meta property="og:url" content="{{ $page->getUrl() }}"/>
+        <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}" />
 
         <title>Opiatsucht.de</title>
             <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,7 +22,7 @@
   gtag('config', 'G-KPPYKGBC45');
 </script>
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=650252c2d072226eeaaa">
+        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
